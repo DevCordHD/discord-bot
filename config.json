@@ -1,0 +1,5 @@
+{
+  "clientId": bot_id,
+  "guildId": server_id,
+  "devs": [developers, go, here]
+}
