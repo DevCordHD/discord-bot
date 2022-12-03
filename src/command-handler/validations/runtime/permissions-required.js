@@ -10,4 +10,6 @@ module.exports = async ({ client, command, interaction }) => {
       }
     }
   }
+
+  return true;
 };
