@@ -5,7 +5,7 @@ module.exports = async ({ client, command, interaction }) => {
     if (devs.includes(interaction.user.id)) {
       return true;
     } else {
-      interaction.reply({
+      await interaction.reply({
         content: 'Only the bot developers can run this command.',
         ephemeral: true,
       });
