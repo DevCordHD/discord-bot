@@ -36,3 +36,9 @@ yarn
 
 - Add your bot token in .env
 - Add your clientId, guildId and developers in config.json
+
+Run src/index.js
+
+```bash
+node .
+```
